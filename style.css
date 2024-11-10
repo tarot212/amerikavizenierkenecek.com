@@ -189,6 +189,7 @@ body {
     font-size: 20px;
     /* color: black; */
     margin-top: 40px;
+    margin-bottom: 0px;
     color: white;
 }
 
@@ -207,7 +208,7 @@ body {
 
 
 .nameInfo {
-    margin-top: -15px;
+    margin-top: 15;
 }
 
 
@@ -227,12 +228,25 @@ body {
 .tile {
     width: 100%;
     background-color: #7d7070;
-    margin: 7px;
     border-radius: 17px;
     text-decoration: none;
     display: flex;
     align-self: center;
     justify-content: space-between;
+}
+
+.tile1 {
+    width: 40%;
+    background-color: #7d7070;
+    margin-top: 72px;
+    margin-bottom: 17px;
+    border-radius: 17px;
+    text-decoration: none;
+    display: flex;
+    align-self: left;
+    justify-content: center;
+
+
 }
 
 .resumeClass {
@@ -308,6 +322,8 @@ body {
     overflow: hidden;
     justify-content: left;
 }
+
+
 
 .hiddenClass {
     flex: 1;
