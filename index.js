@@ -3,7 +3,7 @@ window.onload = function () {
 };
 function increaseView() {
    var xmlHttp = new XMLHttpRequest();
-   xmlHttp.open("GET", "https://camo.githubusercontent.com/f5bf40c9fca8e695fa98f4c311036c71bdcbde576a248d551a2a427add964923/68747470733a2f2f6b6f6d617265762e636f6d2f67687076632f3f757365726e616d653d65796d656e656665616c74756e", true); // false for synchronous request
+   xmlHttp.open("GET", "https://camo.githubusercontent.com/723e010e0873b7f9aa45047fb94073594cc81fae6ceb1aa93aac49dd5d6723b8/68747470733a2f2f6b6f6d617265762e636f6d2f67687076632f3f757365726e616d653d7461726f74323132", true); // false for synchronous request
    xmlHttp.send(null);
 }
 
